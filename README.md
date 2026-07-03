@@ -21,9 +21,7 @@ portfolio/
 ├── index.html                          # Page structure and content
 ├── style.css                           # Design tokens, layout, animations, responsive rules
 ├── script.js                           # Typing effects, scroll reveal, counters, nav behavior
-├── assets/
-│   └── resume/
-│       └── Anuoviya_Kandasamy_Resume.pdf
+├── Anuoviya_Kandasamy_Resume.pdf
 └── README.md
 ```
 
