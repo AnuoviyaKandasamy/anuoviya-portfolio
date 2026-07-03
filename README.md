@@ -28,7 +28,7 @@ portfolio/
 ## 🚀 Getting Started
 
 1. **Resume.** Your resume PDF is already included at
-   `assets/resume/Anuoviya_Kandasamy_Resume.pdf` — the "Download Resume" buttons point to this exact path. Replace the file (keep the same name) any time you update your resume.
+   `Anuoviya_Kandasamy_Resume.pdf` — the "Download Resume" buttons point to this exact path. Replace the file (keep the same name) any time you update your resume.
 
 2. **Add your LinkedIn URL.** Open `script.js` and set the `LINKEDIN_URL` constant near the top of the file:
    ```js
