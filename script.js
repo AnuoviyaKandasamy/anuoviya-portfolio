@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------------------------------------------------------
      0. Config — update LinkedIn URL here once available
   --------------------------------------------------------- */
-  const LINKEDIN_URL = ""; // e.g. "https://www.linkedin.com/in/anuoviya-kandasamy"
+  const LINKEDIN_URL = "https://www.linkedin.com/in/anuoviya-kandasamy-36b543247"; // e.g. "https://www.linkedin.com/in/anuoviya-kandasamy"
 
   const linkedinTargets = [
     document.getElementById("linkedinLink"),
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
      6. Hero typing effect — role titles
   --------------------------------------------------------- */
   const typedTextEl = document.getElementById("typedText");
-  const roles = ["Full-Stack Java Developer", "Spring Boot Developer", "React.js Developer", "Java Backend Engineer"];
+  const roles = ["Full-Stack Java Developer", "Software Developer", "Software Engineer", "Java Backend Developer"];
   let roleIndex = 0, charIndex = 0, deleting = false;
 
   const typeLoop = () => {
@@ -144,8 +144,8 @@ document.addEventListener("DOMContentLoaded", () => {
     private String role =
         "Full-Stack Java Developer";
     private String[] stack = {
-        "Core Java", "Spring Boot",
-        "React.js", "MySQL", "JWT"
+        "Core Java", "Hmtl5 & Css3",
+        "Docker", "Ansible", "Redis", "Shell Script", "MySQL", "JWT"
     };
 
     @Override
@@ -187,19 +187,25 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Backend",
       icon: "fa-solid fa-server",
       type: "tags",
-      items: ["Java Servlets", "Spring Boot", "JWT Authentication", "REST API Design"],
+      items: ["Java Servlets", "Core Java", "JWT Authentication", "REST API Design"],
     },
     {
       title: "Frontend",
       icon: "fa-solid fa-code",
       type: "tags",
-      items: ["React.js", "HTML5 & CSS3", "JavaScript (ES6+)"],
+      items: ["HTML5 & CSS3", "JavaScript (ES6+)"],
     },
     {
       title: "Database",
       icon: "fa-solid fa-database",
       type: "tags",
       items: ["MySQL", "JDBC Connectivity"],
+    },
+     {
+      title: "Tools & Technology",
+      icon: "fa-solid fa-database",
+      type: "tags",
+      items: ["Docker", "Ansible","Redis","Shell Script"],
     },
     {
       title: "Architecture",
